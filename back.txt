@@ -1,0 +1,41 @@
+    height: 1px;
+    background-color: #a2a9b1;
+    border: 0;
+    margin: 0.2em 0;
+    box-sizing: content-box;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+	
+	
+	
+	
+	
+	
+	        "^:::::",
+        "^::::",
+        "^:::",
+        "^::",
+        "^:",
+		
+				"<blockquote><blockquote><blockquote><blockquote><blockquote>",
+		"<blockquote><blockquote><blockquote><blockquote>",
+		"<blockquote><blockquote><blockquote><blockquote>",
+		"<blockquote><blockquote>",
+		"<blockquote>",
+		
+		
+		
+				"/^==(.+)==$/m",
+		"/^===(.+)===$/m",
+		"/^====(.+)====$/m",
+		"/^=====(.+)=====$/m",
+		"/^======(.+)======$/m",
+		
+				"<h2>$1</h2>",
+		"<h3>$1</h3>",
+		"<h4>$1</h4>",
+		"<h5>$1</h5>",
+		"<h6>$1</h6>",
